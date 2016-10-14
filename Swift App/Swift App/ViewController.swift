@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     
     @IBAction func botonApretado(_ sender: AnyObject) {
         tapCount = tapCount + 1
-        if tapCount >= 10 {
-            mitexto.text = "Apretaste 10 veces el boton!"
+        if tapCount >= 20 {
+            mitexto.text = "Apretaste 20 veces el boton!"
         }
     }
     
