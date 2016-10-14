@@ -1,7 +1,7 @@
-var birthYear = 1979
 
-if birthYear < 2000 {
-    print("naciste en el siglo 20")
-} else {
-    print("naciste en el siglo 21")
-}
+var texto = ""
+
+texto = "La respuesta es ... \(Double("5")! + Double("78")!)"
+
+var edad = 29
+"Mi edad es \(edad)"

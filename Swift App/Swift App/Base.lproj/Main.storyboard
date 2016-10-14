@@ -29,25 +29,39 @@
                                     <action selector="botonApretado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FYi-m0-L4H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pl6-gQ-2Uv">
-                                <state key="normal" title="GENIAL"/>
-                                <connections>
-                                    <action selector="boton2Apretado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zjg-re-AZr"/>
-                                </connections>
-                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4c-aA-OmK">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="FFR-Ib-V2W"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7R5-OF-UOQ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ZWX-Hh-4vv"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="HGg-Kj-Arl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="1xB-Fv-jtY"/>
                             <constraint firstItem="HGg-Kj-Arl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DJZ-bR-hAT"/>
                             <constraint firstItem="6Q7-io-k2D" firstAttribute="top" secondItem="HGg-Kj-Arl" secondAttribute="bottom" constant="20" id="OGa-c3-A8B"/>
-                            <constraint firstItem="Pl6-gQ-2Uv" firstAttribute="top" secondItem="6Q7-io-k2D" secondAttribute="bottom" constant="34" id="Sr2-dU-FtF"/>
                             <constraint firstItem="6Q7-io-k2D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VKd-v4-Gc8"/>
-                            <constraint firstItem="Pl6-gQ-2Uv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jLu-0a-Rxg"/>
+                            <constraint firstItem="7R5-OF-UOQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XXa-bL-2U6"/>
+                            <constraint firstItem="o4c-aA-OmK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yea-0d-tZJ"/>
+                            <constraint firstItem="o4c-aA-OmK" firstAttribute="top" secondItem="6Q7-io-k2D" secondAttribute="bottom" constant="1.5" id="kjv-DH-nPh"/>
+                            <constraint firstItem="7R5-OF-UOQ" firstAttribute="top" secondItem="o4c-aA-OmK" secondAttribute="bottom" constant="8" id="vlT-B4-foj"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="mitexto" destination="HGg-Kj-Arl" id="7Dd-Pd-9r3"/>
+                        <outlet property="text1" destination="o4c-aA-OmK" id="vBg-eI-qW0"/>
+                        <outlet property="text2" destination="7R5-OF-UOQ" id="zHc-rG-1Gn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
