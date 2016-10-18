@@ -1,7 +1,13 @@
+var edad : Int = 36
+var dulces : String = "caramelos"
+var peso : Double = 73.7
 
-var texto = ""
+var soleado :Bool = false
 
-texto = "La respuesta es ... \(Double("5")! + Double("78")!)"
+edad >= 16
 
-var edad = 29
-"Mi edad es \(edad)"
+if soleado {
+    print("Esta soleado")
+} else {
+    print("No hay sol")
+}
